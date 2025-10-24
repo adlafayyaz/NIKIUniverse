@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
   </head>
   <body>
     <!-- Navbar -->
@@ -25,13 +26,12 @@
       </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home">
-      <div class="hero-text">
-        <h1>NIKI /<span>SINGER</span></h1>
+    <main id="home">
+      <div class="banner-text">
+        <h1>NICOLE ZEFANYA</h1>
       </div>
-      <img src="/assets/niki1.png" alt="Profile" class="hero-img" />
-    </section>
+      <img src="/assets/niki1.png" alt="Profile" class="banner-img" />
+    </main>
 
     <!-- Bio Section -->
     <section id="bio">
@@ -56,6 +56,7 @@
           karena liriknya yang emosional dan autentik, menjadikannya salah satu
           musisi Asia paling berpengaruh di panggung global.
         </p>
+
         <h2>Pencapaian</h2>
         <ol>
           <li>
@@ -69,6 +70,24 @@
             di Amerika Serikat melalui lagu “Every Summertime”
           </li>
         </ol>
+
+        <div class="social-media1">
+          <a
+            href="https://www.youtube.com/channel/UCaAWRu53UW815hGTmxvHFbA"
+            target="_blank"
+            ><img src="/assets/youtube-icon.svg" alt="YouTube" class="yt"
+          /></a>
+
+          <a href="https://www.instagram.com/nikizefanya/" target="_blank"
+            ><img src="/assets/instagram-icon.svg" alt="Instagram" class="ig"
+          /></a>
+
+          <a
+            href="https://open.spotify.com/artist/2kxP07DLgs4xlWz8YHlvfh?si=uccHiWwkTi64f4NkFqbv_A"
+            target="_blank"
+            ><img src="/assets/spotify-icon.svg" alt="Spotify" class="spt"
+          /></a>
+        </div>
       </div>
     </section>
 
@@ -84,6 +103,7 @@
             <p>Nicole (2022)</p>
           </a>
         </div>
+
         <div class="album">
           <a
             href="https://open.spotify.com/album/1fvKdjXf9Zoxj0wFTiQ6HF?si=RqkfXVf7RfaeNjbpCwLe0w"
@@ -92,6 +112,7 @@
             <p>Live at The Wiltern (2023)</p>
           </a>
         </div>
+
         <div class="album">
           <a
             href="https://open.spotify.com/album/3g73KFee4dbxDq5vTmX92S?si=EPZyamLVRyutrmNYkEdn1w"
@@ -105,13 +126,13 @@
 
     <!-- Lagu Section -->
     <section id="lagu">
-      <h2>Lagu Terbaik</h2>
+      <h2>Lagu Populer</h2>
       <table class="lagu-table">
         <thead>
           <tr>
-            <th>Judul Lagu</th>
-            <th>Tahun Rilis</th>
-            <th>Album</th>
+            <th>JUDUL LAGU</th>
+            <th>TAHUN RILIS</th>
+            <th>ALBUM</th>
           </tr>
         </thead>
         <tbody>
@@ -159,12 +180,12 @@
       </table>
     </section>
 
-    <!-- Similiar Artist Section -->
-    <section id="similiar">
-      <h2>Similiar Artist</h2>
+    <!-- Artis Serupa Section -->
+    <section id="serupa">
+      <h2>Artis Serupa</h2>
 
-      <div class="artist-container">
-        <div class="artist">
+      <div class="artis-container">
+        <div class="artis">
           <a
             href="https://open.spotify.com/artist/3l0CmX0FuQjFxr8SK7Vqag"
             target="_blank"
@@ -174,7 +195,7 @@
           </a>
         </div>
 
-        <div class="artist">
+        <div class="artis">
           <a
             href="https://open.spotify.com/artist/35l9BRT7MXmM8bv2WDQiyB?si=ftfM6A6mTeqAqe9ouRxcLg"
             target="_blank"
@@ -184,7 +205,7 @@
           </a>
         </div>
 
-        <div class="artist">
+        <div class="artis">
           <a
             href="https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5"
             target="_blank"
@@ -196,18 +217,63 @@
       </div>
     </section>
 
+    <!-- Pesan Penggemar Section -->
+    <section id="pesanpenggemar">
+      <h2>Pesan Penggemar</h2>
+      <p>Kirimkan pesan dukunganmu untuk NIKI!</p>
+
+      <form class="fan-form" action="#" method="post">
+        <div class="form-group">
+          <label for="nama">Nama</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Masukkan nama kamu"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan email kamu"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="pesan">Pesan</label>
+          <textarea
+            id="pesan"
+            name="pesan"
+            rows="5"
+            placeholder="Tulis pesanmu di sini!"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="submit">Kirim Pesan</button>
+      </form>
+    </section>
+
     <!-- Footer -->
     <footer>
-      <p>&copy; 2025 adlafayyaz. Mini Project KSM Android.</p>
-      <div class="social-media">
+      <p>&copy; 2025 adlafayyaz | Mini Project | KSM Android</p>
+      <div class="social-media2">
         <a
           href="https://www.youtube.com/channel/UCaAWRu53UW815hGTmxvHFbA"
           target="_blank"
           ><img src="/assets/youtube-icon.svg" alt="YouTube" class="yt"
         /></a>
+
         <a href="https://www.instagram.com/nikizefanya/" target="_blank"
           ><img src="/assets/instagram-icon.svg" alt="Instagram" class="ig"
         /></a>
+
         <a
           href="https://open.spotify.com/artist/2kxP07DLgs4xlWz8YHlvfh?si=uccHiWwkTi64f4NkFqbv_A"
           target="_blank"
